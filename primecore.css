@@ -1,0 +1,604 @@
+@charset "UTF-8";
+
+
+/*
+ 
+ PrimeCore.CSS
+ Original build by Luke Christopher Chulack
+ 03/01/2021
+ v1.0
+ 
+ Layout:
+ 
+     background colors;
+
+     basics:
+ 
+        align;
+ 
+        display;
+
+     containers;
+
+     fonts:
+ 
+         font colors;
+         
+         font family;
+     
+         font style;
+ 
+         font weight;
+     
+       grids;
+ 
+       Media queries;
+
+ */
+
+
+
+/* background colors */
+
+.back-red {
+    
+    background-color: red;
+    
+}
+
+.back-blue {
+    
+    background-color: blue;
+    
+}
+
+.back-green {
+    
+    background-color: green;
+
+}
+
+.back-yellow {
+    
+    background-color: yellow;
+    
+}
+
+.back-purple {
+    
+    background-color: purple;
+    
+}
+
+.back-orange {
+    
+    background-color: orange;
+    
+}
+
+
+/* basics  */
+
+
+/* align */
+
+.set-center {
+    
+    text-align: center;
+    
+}
+
+.set-justify {
+    
+    text-align: justify;
+    
+}
+
+.set-left {
+    
+    text-align: left;
+    
+}
+
+.set-right {
+    
+    text-align: right;
+    
+    
+}
+
+
+/* display */
+
+.show-block {
+    
+    display: block;
+    
+}
+
+.show-flex  {
+    
+    display: flex;
+    
+}
+
+.show-inline {
+    
+    display: inline;
+    
+}
+
+.show-inline-block {
+    
+    display: inline-block;
+    
+}
+
+.show-none {
+    
+    display: none;
+    
+}
+
+
+/* containers */
+
+.container {
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+    width: 100%;
+
+}
+
+
+/* fonts */
+
+
+/*  font colors */
+
+.font-red {
+    
+    color: red;
+    
+}
+
+.font-blue {
+    
+    color: blue;
+    
+}
+
+.font-green {
+    
+    color: green;
+
+}
+
+.font-yellow {
+    
+    color: yellow;
+    
+}
+
+.font-purple {
+    
+    color: purple;
+    
+}
+
+.font-orange {
+    
+    color: orange;
+    
+}
+
+
+/* font family  */
+
+.font-arial {
+    
+    font-family: Arial, sans-serif;
+    
+}
+
+.font-brush-script-mt {
+    
+    font-family: 'Brush Script MT', cursive;
+
+}
+
+.font-courier-new {
+    
+    font-family: 'Courier New', monospace;
+    
+}
+
+.font-garamond {
+    
+    font-family: Garamond, serif;
+
+}
+
+.font-georgia {
+    
+    font-family: Georgia, serif;
+
+}
+
+.font-helvetica {
+    
+    font-family: Helvetica, sans-serif;
+
+}
+
+.font-tahoma {
+  
+  font-family: Tahoma, sans-serif;
+
+    
+}
+
+.font-times-new-roman {
+    
+    font-family: 'Times New Roman', serif;
+
+    
+}
+
+.font-trebuchet-ms {
+    
+    font-family: 'Trebuchet MS', sans-serif;
+
+}
+
+
+.font-verdana {
+    
+    font-family: Verdana, sans-serif;
+    
+}
+
+
+/* font style */
+
+.font-style-normal {
+    
+    font-style: normal;
+    
+}
+
+.font-style-oblique {
+    
+    font-style: oblique;
+    
+}
+
+.font-style-italic {
+    
+    font-style: italic;
+    
+}
+
+
+/* font weight */
+
+.font-weight-bold {
+    
+    font-weight: bold;
+    
+}
+
+
+.font-weight-light {
+    
+    font-weight: lighter;
+    
+}
+
+
+.font-weight-normal {
+    
+    font-weight: normal;
+    
+}
+
+
+
+
+
+
+/* grids */
+
+
+.row {
+    
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+
+[class*="col-"] {
+    
+    width: 100%;
+    float: left;
+
+  }
+
+  
+
+/* Media queries */
+
+
+@media screen and (min-width: 600px) {
+
+
+    /* grid extra small*/
+    .col-xs-1 {
+        
+        width: 10%;
+        
+    }
+    
+    .col-xs-2 {
+        
+        width: 20%;
+        
+    }
+    
+    .col-xs-3 {
+        
+        width: 30%;
+        
+    }
+    
+    .col-xs-4 {
+    
+        width: 40%;
+    
+        
+    }
+    
+    .col-xs-5 {
+        
+        width: 50%;
+        
+    }
+    
+    .col-xs-6 {
+        
+        width: 60%;
+        
+    }
+    
+    .col-xs-7 {
+        
+        width: 70%;
+        
+    }
+    
+    .col-xs-8 {
+        
+        width: 80%;
+        
+    }
+    
+    .col-xs-9 {
+        
+        width: 90%;
+        
+    }
+    
+    .col-xs-10 {
+        
+        width: 100%;
+        
+    }
+
+
+}
+
+@media screen and (min-width: 660px) {
+    
+    /* grid small */
+
+    .col-s-1 {
+        
+        width: 10%;
+        
+    }
+    
+    .col-s-2 {
+        
+        width: 20%;
+        
+    }
+    
+    .col-s-3 {
+        
+        width: 30%;
+        
+    }
+    
+    .col-s-4 {
+    
+        width: 40%;
+    
+        
+    }
+    
+    .col-s-5 {
+        
+        width: 50%;
+        
+    }
+    
+    .col-s-6 {
+        
+        width: 60%;
+        
+    }
+    
+    .col-s-7 {
+        
+        width: 70%;
+        
+    }
+    
+    .col-s-8 {
+        
+        width: 80%;
+        
+    }
+    
+    .col-s-9 {
+        
+        width: 90%;
+        
+    }
+    
+    .col-s-10 {
+        
+        width: 100%;
+        
+    }
+
+}
+
+@media screen and (min-width: 760px) {
+    
+    /* normal grids */
+
+    .col-1 {
+        
+        width: 10%;
+        
+    }
+    
+    .col-2 {
+        
+        width: 20%;
+        
+    }
+    
+    .col-3 {
+        
+        width: 30%;
+        
+    }
+    
+    .col-4 {
+    
+        width: 40%;
+    
+        
+    }
+    
+    .col-5 {
+        
+        width: 50%;
+        
+    }
+    
+    .col-6 {
+        
+        width: 60%;
+        
+    }
+    
+    .col-7 {
+        
+        width: 70%;
+        
+    }
+    
+    .col-8 {
+        
+        width: 80%;
+        
+    }
+    
+    .col-9 {
+        
+        width: 90%;
+        
+    }
+    
+    .col-10 {
+        
+        width: 100%;
+        
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
+        /* large grids */
+
+
+        .col-lg-1 {
+        
+            width: 10%;
+            
+        }
+        
+        .col-lg-2 {
+            
+            width: 20%;
+            
+        }
+        
+        .col-lg-3 {
+            
+            width: 30%;
+            
+        }
+        
+        .col-lg-4 {
+        
+            width: 40%;
+        
+            
+        }
+        
+        .col-lg-5 {
+            
+            width: 50%;
+            
+        }
+        
+        .col-lg-6 {
+            
+            width: 60%;
+            
+        }
+        
+        .col-lg-7 {
+            
+            width: 70%;
+            
+        }
+        
+        .col-lg-8 {
+            
+            width: 80%;
+            
+        }
+        
+        .col-lg-9 {
+            
+            width: 90%;
+            
+        }
+        
+        .col-lg-10 {
+            
+            width: 100%;
+            
+        }
+
+}
