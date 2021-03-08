@@ -6,7 +6,7 @@
  PrimeCore.CSS
  Original build by Luke Christopher Chulack
  03/01/2021
- v0.1
+ v0.2
  
  Layout:
  
@@ -36,7 +36,12 @@
      
        grids;
  
-       Media queries;
+       navigation;
+
+       other: 
+
+         Media queries;
+
 
  */
 
@@ -78,6 +83,53 @@
     
     background-color: orange;
     
+}
+
+.back-cyan {
+
+    background-color: cyan;
+
+}
+
+.back-pink {
+
+    background-color: pink;
+
+}
+
+.back-brown {
+
+    background-color: brown;
+
+
+}
+
+.back-gray {
+
+    background-color: gray;
+
+
+}
+
+.back-grey {
+
+    background-color: grey;
+
+
+}
+
+.back-black {
+
+    background-color: black;
+
+
+}
+
+.back-white {
+
+    background-color: white;
+
+
 }
 
 
@@ -589,6 +641,54 @@
     
 }
 
+.font-cyan {
+
+    color: cyan;
+
+}
+
+.font-pink {
+
+    color: pink;
+
+}
+
+.font-brown {
+
+    color: brown;
+
+
+}
+
+.font-gray {
+
+    color: gray;
+
+
+}
+
+.font-grey {
+
+    color: grey;
+
+
+}
+
+.font-black {
+
+    color: black;
+
+
+}
+
+.font-white {
+
+    color: white;
+
+
+}
+
+
 
 /* font family  */
 
@@ -720,6 +820,52 @@
   }
 
   
+
+
+/* navigation */
+
+.navbar-brand {
+
+
+}
+
+
+.navbar-container {
+
+
+}
+
+.navbar-dark {
+
+    background-color: #292929;
+
+}   
+
+.navbar-main {
+
+
+}
+
+.navbar-bright {
+
+    background-color: #f2f2f2;
+
+}   
+
+
+.navbar-link  {
+
+
+}
+
+.navbar-list  {
+
+
+}
+
+        
+
+/* other */
 
 /* Media queries */
 
@@ -992,3 +1138,4 @@
         }
 
 }
+
