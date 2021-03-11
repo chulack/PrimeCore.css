@@ -1,4 +1,4 @@
-# primecore.css
+# PrimeCore.css
 PrimeCore.css is a simple library for grids and other basic css things. Various selectors have been added for things such as font color and font family.
 
 
